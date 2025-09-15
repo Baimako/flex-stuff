@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  /*Styr alla element i koden*/
+  box-sizing: border-box; /*Gör så att bredd/höjd på element inkluderar padding och border i sina mått och gör layouten mer förutsägbar.*/
+  margin: 0;
+  padding: 0;
+  /*tar bort all margin och padding*/
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #b5838d;
+  color: #6d6875;
+}
+img {
+  max-width: 500px;
+}
