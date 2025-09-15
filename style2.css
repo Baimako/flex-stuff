@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background: mistyrose;
+  margin: 10px;
+}
+.flex-container {
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-between; /*Flyttar boxarna höger och vänster*/
+  height: 400px;
+  align-items: center; /*Flyttar boxarna upp och ner*/
+}
+.item:nth-of-type(1) {
+  /*end of type*/
+  align-self: start;
+}
+.item:nth-of-type(2) {
+  /*end of type*/
+  align-self: center;
+}
+.item:nth-of-type(3) {
+  /*end of type*/
+  align-self: end;
+}

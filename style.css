@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+.box {
+}
+.box1 {
+  flex-basis: 400px;
+  flex-grow: 10;
+  background: yellow;
+}
+.box2 {
+  background: orange;
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+.box3 {
+  background: darkorange;
+}
+.box4 {
+  background: red;
+}
+.box5 {
+  background: pink;
+}
+.box6 {
+  background: purple;
+}
+.box7 {
+  background: blue;
+}
+.box8 {
+  background: lightblue;
+}
+.box9 {
+  background: green;
+}
+.box10 {
+  background: lightgreen;
+}

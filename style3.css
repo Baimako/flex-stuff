@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background: mistyrose;
+  margin: 10px;
+  flex-basis: 100px; /*sätter en box storlek*/
+
+  display: flex;
+  justify-content: center; /*centrerar höger och vänster*/
+  align-items: center; /*centrerar upp och ner*/
+}
+.flex-container {
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-between; /*Flyttar boxarna höger och vänster*/
+  /*flex-direction: column; /*Staplas istället för att hamna på rad, vilket är defult*/
+  align-items: center; /*Flyttar boxarna upp och ner*/
+}
+.item:nth-of-type(1) {
+  /*end of type*/
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.item:nth-of-type(2) {
+  /*end of type*/
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+.item:nth-of-type(3) {
+  /*end of type*/
+  flex-grow: 3;
+  flex-shrink: 3;
+}
